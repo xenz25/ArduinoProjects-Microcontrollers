@@ -1,0 +1,17 @@
+Z3(C, S3, S2, S1, S0) = 0
+Z2(C, S3, S2, S1, S0) = 0
+
+Z1(C, S3, S2, S1, S0) = CS2 + CS3
+Z1(C, S3, S2, S1, S0) = C(S2 + S3)
+
+Z0(C, S3, S2, S1, S0) = C'S3S1 + C'S3S2 + CS3'S2' + S3S2S1
+
+X3(C, S3, S2, S1, S0) = C'S3S2'S1' + CS3'S2'S1 + CS3S2S1'
+
+X2(C, S3, S2, S1, S0) = C'S3'S2 + C'S2S1 + CS2'S1' + CS3S2'
+X2(C, S3, S2, S1, S0) = C'S2(S3' + S1) + CS2'(S1' + S3)
+
+X1(C, S3, S2, S1, S0) = C'S3'S1 + C'S3S2S1' + CS3'S2'S1' + S3'S2S1 + CS3S2'S1
+X1(C, S3, S2, S1, S0) = C'(S3'S1 + S3S2S1') + CS2'(S3'S1' + S3S1) + S3'S2S1 
+
+X0(C, S3, S2, S1, S0) = S0
